@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: logging-core
+
+management:
+  tracing:
+    enabled: true
+    exporter: logging
+    sampling:
+      probability: 1.0
+
+
+server.port: 8081
