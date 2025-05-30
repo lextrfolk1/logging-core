@@ -3,7 +3,6 @@ package com.lextr.logging.config;
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.SpanContext;
 import jakarta.servlet.*;
-import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.MDC;
 import org.springframework.stereotype.Component;
 

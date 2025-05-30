@@ -15,7 +15,7 @@
 
     <springProfile name="default">
         <root level="INFO">
-            <appender-ref ref="CONSOLE_JSON"/>
+            <appender-ref ref="CONSOLE"/>
         </root>
     </springProfile>
 </configuration>

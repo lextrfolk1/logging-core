@@ -25,10 +25,12 @@
     </properties>
 
     <dependencies>
-        <!-- Spring Boot Web Starter -->
+        <!-- Servlet API -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- OpenTelemetry Core APIs -->
@@ -88,12 +90,6 @@
                 <configuration>
                     <release>${java.version}</release>
                 </configuration>
-            </plugin>
-
-            <!-- Spring Boot Plugin -->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
